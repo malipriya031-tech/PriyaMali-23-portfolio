@@ -1,0 +1,1 @@
+function openGift(){document.querySelector('#intro').style.display='none';document.querySelector('#gift').classList.remove('hidden');document.body.animate([{filter:'brightness(1)'},{filter:'brightness(.35)'},{filter:'brightness(1)'}],{duration:500});}
